@@ -9,7 +9,7 @@ document.getElementById("box1").innerHTML = sum2;
 let data1 = ["Peter", "Anil", "Sam", "Neha"];
 //use qomas to access next element
 let [, y, z, a] = data1;
-console.log(y, z, a);
+document.write(y, z, a);
 
 // Arguments Object
 function addFunction() {
